@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+header {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    width: auto;
+    height: auto;
+
+}
+.Toboolist {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.title-container {
+    position: absolute;
+    display: inline-block;
+}
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: darkcyan  ;
+    
+}
+.tasks-section-container {
+
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    border-radius: 20px;
+}
+nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+#add {
+    font-size: 16px;
+    font-family: monospace;
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.tasks-section-container {
+    position: relative;
+}
+.add-task {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    background-color: darkcyan;
+    color: white;
+}
+.add-section {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    background-color: darkgray;
+    border: 2px tomato;
+    color: white;   
+
+
+}
+hr {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+}
+.new-today-up {
+    position: relative;
+}
+li {
+    font-size: 25px;
+}
+
+ul {
+    font-size: 16px;
+    font-family: monospace;
+    top: 100px;
+    position: absolute;
+    list-style: none;
+
+}
+.editorial {
+    color: white;
+    background-color: darkgoldenrod;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.check {
+    font-size: 25px;
+    color: green;
+}
+.none {
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+}
